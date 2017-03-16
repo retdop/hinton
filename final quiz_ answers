@@ -1,0 +1,39 @@
+1. L1 weight decay
+2. intractable to compute
+3. high goodness no high prob
+4. neg data
+5. less time and less variance
+6. less likely
+7. more weight decay, fewer hidden units
+N8. everything except RBM no condition
+Neverything except SBM no condition
+Nall rbm
+9. speed up the learning
+10. 0.119
+11. 2.000
+12. -1.500
+13. car, d d, cat
+14. obvious
+15. online scaling, minibatch
+16. regularization
+17. lots of unlabeled but few labeled
+18. conv
+
+
+Q7:
+
+1. 4
+How many bits of information can be modeled by the hidden state (at some specific time) of a Hidden Markov Model with 16 hidden units? Not 16, 2, >16
+How many bits of information can be modeled by the vector of hidden activities (at a specific time) of a RNN with 16 logistic hidden units? >16!
+2. everything except FNN 30ms
+3. 0.075
+4. 0.0139
+5. vanishing
+6. easy life
+
+The figure below shows a Recurrent Neural Network (RNN) with one input unit x, one logistic hidden unit h, and one linear output unit
+
+y. The RNN is unrolled in time for T=0,1, and 2. 
+The network parameters are: Wxh=0.5 , Whh=−1.0 , Why=−0.7 , hbias=−1.0, and ybias=0.0. Remember, σ(k)=11+exp⁡(−k).
+
+If the input x takes the values 9,4,−2 at time steps 0,1,2 respectively, what is the value of the output y at T=1? Give your answer to at least two digits after the decimal point.
